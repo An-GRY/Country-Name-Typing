@@ -205,7 +205,7 @@
       const totalTime = (endTime - startTime) / 1000;
       document.getElementById('result').innerText = `Game Clear! Your time: ${totalTime.toFixed(2)} seconds`;
       document.getElementById('stats').innerText = `Correct: ${correctCount} | Wrong: ${wrongCount}`;
-      document.getElementById('start-button').style.display = 'block'; // Show the Start button
+      document.getElementById('start-button').style.display = ''; // Show the Start button
     }
 
     document.getElementById('input-word').addEventListener('input', function() {
