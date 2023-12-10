@@ -28,13 +28,6 @@ function startcountminus() {
   startbuttontimer();
 }
 
-function startlefttimecount() {
-  if (modeval !== 'none') {
-    lefttimecounter();
-    countdownlefttime();
-  }
-}
-
 function startGame() {
   getAllSettings();
   currentWordIndex = 0;
@@ -135,12 +128,6 @@ function checkInput() {
   if (currentWordIndex < words.length) {
     renderWord();
     inputElement.value = '';
-  }
-
-  if (currentWordIndex === words.length || leftsec === 0) {
-    document.getElementById('input-word').disabled = true;
-    stopTimer();
-    showStats();
   }
 }
 
