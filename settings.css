@@ -1,0 +1,120 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: skyblue;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  h1 {
+    color: #343a40;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  #settings-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+
+  label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+
+  input {
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  input:focus {
+    border-color: #0056b3;
+  }
+
+  button {
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #timelist {
+    font-size: 1em;
+    padding: 8px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
+
+  #timelist:focus {
+    border-color: #0056b3;
+  }
+
+  #timelist option {
+    font-size: 1em;
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
+
+  #timelist option:checked {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  #modelist {
+    font-size: 1em;
+    padding: 8px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
+
+  #modelist:focus {
+    border-color: #0056b3;
+  }
+
+  #modelist option {
+    font-size: 1em;
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
+
+  #modelist option:checked {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+
+  input {
+    margin-right: 5px;
+  }
